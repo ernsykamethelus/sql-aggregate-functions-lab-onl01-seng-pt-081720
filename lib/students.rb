@@ -14,4 +14,5 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
+  SELECT AVG(average_gpa) AS average_gpa_for_9th_grade FROM cats;
 end
